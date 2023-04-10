@@ -52,7 +52,7 @@ buttonStop.addEventListener('click', function() {
 buttonSoundOn.addEventListener('click', function() {    
     buttonSoundOn.classList.add('hide')
     buttonSoundOff.classList.remove('hide')
-    sound.bgAudio.play().loop()
+    sound.bgAudio.play()
 })
 
 buttonSoundOff.addEventListener('click', function() {    
